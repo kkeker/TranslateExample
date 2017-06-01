@@ -1,0 +1,20 @@
+{
+  "Mode": "Production",
+
+  "Development": {
+
+  },
+  "Testing": {
+
+  },
+  "Production":{
+    "DataBase":{
+      "User": "Test",
+      "Password": "Test",
+      "Host": "127.0.0.1",
+      "Port": "123",
+      "Base": "prod"
+    },
+    "DefaultLang": "en"
+  }
+}
