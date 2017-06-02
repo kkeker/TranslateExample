@@ -1,5 +1,6 @@
+//Конфигурационный файл.
 {
-  "Mode": "Production",
+  "Mode": "Production", //Параметр, задающий секцию чтения конфигурации.
 
   "Development": {
 
@@ -8,13 +9,13 @@
 
   },
   "Production":{
-    "DataBase":{
+    "DataBase":{ //Неиспользуемый фрагмент конфигурации для примера.
       "User": "Test",
       "Password": "Test",
       "Host": "127.0.0.1",
       "Port": "123",
       "Base": "prod"
     },
-    "DefaultLang": "en"
+    "DefaultLang": "en" //Язык по умолчанию, используется если параметр $lang не был передан методом GET.
   }
 }
